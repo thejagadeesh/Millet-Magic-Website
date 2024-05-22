@@ -1312,7 +1312,7 @@ document.getElementById('bmiForm').addEventListener('submit', function (event) {
     resultWindow.document.write('<p><strong>Dinner:</strong><br>' + dinnerRecipe1 + '<br>' + dinnerRecipe2 + '</p>');
     resultWindow.document.write('<p><strong>Snacks:</strong><br>' + snacksRecipe1 + '<br>' + snacksRecipe2 + '</p>');
     // Add "Back to Home" button
-    resultWindow.document.write('<button onclick="window.location.href = \'html-code.html\';">Back to Home</button>');
+    resultWindow.document.write('<button onclick="window.location.href = \'index.html\';">Back to Home</button>');
 
     resultWindow.document.write('</div></body></html>');
 
