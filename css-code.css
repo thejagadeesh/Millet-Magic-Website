@@ -1,0 +1,326 @@
+/* Reset default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+  line-height: 1.6;
+  padding: 0 40px;
+  /* Added padding to the body */
+}
+
+/* Heading styles */
+h1,
+h2,
+h3 {
+  color: #e77200;
+  margin-bottom: 5px;
+  /* Adjusted margin-bottom */
+}
+
+/* Paragraph styles */
+p {
+  margin-top: 0;
+  /* Remove default margin */
+  margin-bottom: 10px;
+}
+
+form {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  /* Set border radius as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #0d0d0d;
+}
+
+
+/* Label styles */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Input and select styles */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #e77200;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF8C66;
+  /* Changed hover color */
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Additional styles for specific elements can be added below */
+
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Input and select styles */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #e77200;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF8C66;
+  /* Changed hover color */
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+form {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #0d0d0d;
+}
+
+input[type="text"],
+select {
+  width: calc(100% - 20px);
+  /* Adjusted width to accommodate error message */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #e77200;
+  /* Changed orange color */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF8C66;
+  /* Hover color */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+#result p {
+  color: white;
+}
+
+#result .bmi {
+  color: #e77200;
+  /* Same orange color */
+}
+
+#milletImage {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Add margin to the gender select */
+#gender {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #e77200;
+  /* Changed border color */
+  border-radius: 5px;
+  background-color: #333;
+  /* Changed background color */
+  width: 100%;
+  color: white;
+}
+
+/* Custom dropdown arrow */
+#gender::after {
+  content: '\25BC';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Error message style */
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+  display: none;
+  /* Hide error message by default */
+}
+
+.tableau-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tableau-placeholder {
+  width: 900px;
+  /* Increase the width as needed */
+  max-width: 95%;
+  margin-top: 10px;
+  /* Adjust margin as needed */
+  margin-bottom: 0px;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  /* Dark background */
+  color: white;
+  /* Text color */
+}
+
+th,
+td {
+  padding: 10px 10px;
+  text-align: center;
+  border-bottom: 1px solid #555;
+  /* Darker border color */
+}
+
+th {
+  background-color: #555;
+  /* Darker background color */
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #444;
+  /* Darker hover background color */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #222;
+  /* Even row background color */
+}
+
+/* Define styles for the button */
+.back-to-home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  /* Rounded corners */
+  background-color: #e77200;
+  /* Orange color */
+  color: white;
+  text-decoration: none;
+  /* Remove default link underline */
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition for color and background */
+}
+
+/* Hover effect */
+.back-to-home-button:hover {
+  background-color: white;
+  /* White background color on hover */
+  color: #e77200;
+  /* Orange text color on hover */
+}

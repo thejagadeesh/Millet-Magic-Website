@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Millet Magic: Your Gateway to Health and Flavor</title>
+  <link rel="stylesheet" type="text/css" href="css-code.css">
+</head>
+
+<body>
+  <header>
+    <h2>Welcome to Millet Magic</h2>
+    <p>Discover the incredible benefits of millets tailored to your unique nutritional needs. Our mission is to showcase
+      the magic of incorporating millets into your diet. Find your ideal millet match accompanied by a delightful array
+      of dishes and comprehensive cooking instructions.</p>
+  </header>
+
+  <section>
+    <h2>Discover Your Millet Match</h2>
+    <p>Ready to find the ideal millet variety for you? Provide your height and weight into our BMI calculator to get
+      specific millet recommendations that align with your health goals. Whether you're looking to maintain a healthy
+      weight, gain muscle, or manage your weight effectively, we've got the perfect millet match for you.</p>
+    <form id="bmiForm">
+      <label for="height">Height (cm):</label>
+      <input type="text" id="height" name="height" required>
+      <span id="heightError" class="error-message"></span>
+
+      <label for="weight">Weight (kg):</label>
+      <input type="text" id="weight" name="weight" required>
+      <span id="weightError" class="error-message"></span>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="" disabled selected>Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <input type="submit" value="Calculate BMI">
+    </form>
+  </section>
+
+  <section>
+    <h2>State wise Millet Analysis Dashboard</h2>
+    <p>Delve deeper into the world of millets with our interactive Tableau dashboard. Gain insights into millet
+      cultivation and distribution across different states in India. Explore crop distribution, state-wise land
+      utilization, and total production statistics for a comprehensive understanding of millet cultivation in the
+      country.</p>
+    <div class="tableau-container">
+      <div class="tableau-placeholder" id="viz1715785574212">
+        <noscript>
+          <a href="#">
+            <img alt="Dashboard 1"
+              src="https://public.tableau.com/static/images/Mi/MilletAnalysisDashboardForWeb/Dashboard1/1_rss.png"
+              style="border: none">
+          </a>
+        </noscript>
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F">
+          <param name="embed_code_version" value="3">
+          <param name="site_root" value="">
+          <param name="name" value="MilletAnalysisDashboardForWeb/Dashboard1">
+          <param name="tabs" value="no">
+          <param name="toolbar" value="yes">
+          <param name="static_image"
+            value="https://public.tableau.com/static/images/Mi/MilletAnalysisDashboardForWeb/Dashboard1/1.png">
+          <param name="animate_transition" value="yes">
+          <param name="display_static_image" value="yes">
+          <param name="display_spinner" value="yes">
+          <param name="display_overlay" value="yes">
+          <param name="display_count" value="yes">
+          <param name="language" value="en-US">
+        </object>
+      </div>
+    </div>
+  </section>
+
+  <h2>Millet Nutrition Data</h2>
+  <p>Discover the nutritional breakdown of different millet varieties per 100g in the table below, highlighting their
+    protein, fiber, mineral, iron, and calcium contents.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Crop</th>
+        <th>Protein (g)</th>
+        <th>Fibre (g)</th>
+        <th>Minerals (g)</th>
+        <th>Iron (mg)</th>
+        <th>Calcium (mg)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sorghum</td>
+        <td>11</td>
+        <td>6.7</td>
+        <td>2.7</td>
+        <td>3.4</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>Finger Millet</td>
+        <td>7.3</td>
+        <td>3.6</td>
+        <td>2.7</td>
+        <td>3.9</td>
+        <td>344</td>
+      </tr>
+      <tr>
+        <td>Pearl Millet</td>
+        <td>10.6</td>
+        <td>1.3</td>
+        <td>2.3</td>
+        <td>16.9</td>
+        <td>38</td>
+      </tr>
+      <tr>
+        <td>Foxtail Millet</td>
+        <td>12.3</td>
+        <td>8</td>
+        <td>3.3</td>
+        <td>2.8</td>
+        <td>31</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <script src="javascript-code.js"></script>
+
+</body>
+
+</html>
